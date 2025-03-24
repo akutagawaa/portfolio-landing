@@ -668,10 +668,30 @@ speech - синтезаторы речи
   color: #000000;
 }
 
+<<<<<<< HEAD
 .item__top-icon {
   margin-left: auto;
 }
 
+=======
+.item__top-icon1 {
+  margin-left: auto;
+}
+
+.item__top-icon2 {
+  margin-left: auto;
+  display: none;
+}
+
+.open-item .item__top-icon2 {
+  display: block;
+}
+
+.open-item .item__top-icon1 {
+  display: none;
+}
+
+>>>>>>> 2314477 (some changes)
 .faq__item-line {
   margin-top: 30px;
   margin-bottom: 30px;
@@ -814,10 +834,21 @@ speech - синтезаторы речи
   color: #ffffff;
 }
 
+<<<<<<< HEAD
 .testimonials__toptext {
   display: flex;
   align-items: center;
   margin-bottom: 40px;
+=======
+html, body {
+  overflow-x: hidden;
+}
+
+.testimonials__toptext {
+  display: flex;
+  align-items: center;
+  margin-bottom: 80px;
+>>>>>>> 2314477 (some changes)
 }
 .testimonials__toptext-desc {
   max-width: 473px;
@@ -829,6 +860,11 @@ speech - синтезаторы речи
 
 .swiper {
   display: flex;
+<<<<<<< HEAD
+=======
+  align-items: center;
+  width: 100%;
+>>>>>>> 2314477 (some changes)
   max-width: 1240px;
   height: 625px;
   background: #191A23;
@@ -837,6 +873,10 @@ speech - синтезаторы речи
 
 .swiper-slide {
   padding-top: 84px;
+<<<<<<< HEAD
+=======
+  position: relative;
+>>>>>>> 2314477 (some changes)
 }
 
 .swiper-slide__desc {
@@ -875,6 +915,26 @@ speech - синтезаторы речи
   color: #FFFFFF;
 }
 
+<<<<<<< HEAD
+=======
+.swiper-btns {
+  display: flex;
+  position: absolute;
+  top: 78%;
+  left: 50%;
+  bottom: 0;
+  align-items: center;
+}
+
+.swiper-btns .swiper-button-prev {
+  margin-left: 189px;
+}
+
+.swiper-btns .swiper-button-next {
+  margin-right: 189px;
+}
+
+>>>>>>> 2314477 (some changes)
 .swiper-button-next:after, .swiper-button-prev:after {
   display: none;
 }
@@ -911,6 +971,13 @@ speech - синтезаторы речи
   color: #ffffff;
 }
 
+<<<<<<< HEAD
+=======
+.contact {
+  margin-bottom: 140px;
+}
+
+>>>>>>> 2314477 (some changes)
 .contact__toptext {
   display: flex;
   align-items: center;
@@ -932,6 +999,10 @@ speech - синтезаторы речи
   padding-top: 60px;
   padding-left: 100px;
   position: relative;
+<<<<<<< HEAD
+=======
+  overflow: hidden;
+>>>>>>> 2314477 (some changes)
 }
 .contact__form::after {
   position: absolute;
@@ -951,6 +1022,7 @@ speech - синтезаторы речи
   margin-bottom: 20px;
 }
 
+<<<<<<< HEAD
 input[type=checkbox] {
   position: absolute;
   left: -9999px;
@@ -985,6 +1057,13 @@ input[type=checkbox]:checked + label:after {
 
 .form__top-sayhi {
   margin-left: 25px;
+=======
+#contact__quote {
+  margin-left: 35px;
+}
+
+.sayhi__label {
+>>>>>>> 2314477 (some changes)
   padding-left: 14px;
   font-family: "Space Grotesk";
   font-style: normal;
@@ -993,8 +1072,13 @@ input[type=checkbox]:checked + label:after {
   color: #000000;
 }
 
+<<<<<<< HEAD
 .form__top-quote {
   margin-left: 77px;
+=======
+.quote__label {
+  padding-left: 14px;
+>>>>>>> 2314477 (some changes)
   font-family: "Space Grotesk";
   font-style: normal;
   font-weight: 400;
@@ -1002,6 +1086,43 @@ input[type=checkbox]:checked + label:after {
   color: #000000;
 }
 
+<<<<<<< HEAD
+=======
+#contact__quote label {
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: #000000;
+}
+
+input[type=radio] {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 28px;
+  height: 28px;
+  background: #FFFFFF;
+  border: 1px solid #000000;
+  border-radius: 29px;
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+}
+
+input[type=radio]:checked::before {
+  content: "";
+  width: 16px;
+  height: 16px;
+  background-color: #B9FF66;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+>>>>>>> 2314477 (some changes)
 .form__inner-items {
   display: flex;
   flex-direction: column;
@@ -1114,7 +1235,10 @@ li {
 
 .footer {
   padding: 55px 60px 0 60px;
+<<<<<<< HEAD
   width: 100%;
+=======
+>>>>>>> 2314477 (some changes)
   min-height: 514px;
   background: #191A23;
   border-radius: 45px 45px 0px 0px;
@@ -1311,7 +1435,19 @@ li {
     font-size: 1.5rem;
   }
 }
+<<<<<<< HEAD
 @media (max-width: 830px) {
+=======
+@media (max-width: 835px) {
+  .item__top-icon1 {
+    margin-left: 0;
+    display: none;
+  }
+  .open-item .item__top-icon2 {
+    margin-left: 0;
+    display: none;
+  }
+>>>>>>> 2314477 (some changes)
   .team__items {
     justify-content: center;
   }
@@ -1362,7 +1498,11 @@ li {
     flex-wrap: wrap;
   }
   .footer__email-submit {
+<<<<<<< HEAD
     margin: 0;
+=======
+    margin-right: 20px;
+>>>>>>> 2314477 (some changes)
   }
   .footer__nocopy {
     margin-bottom: 20px;
@@ -1409,6 +1549,12 @@ li {
     margin-top: 15px;
     font-size: 1.5rem;
   }
+<<<<<<< HEAD
+=======
+  .process__faq-item {
+    height: 120px;
+  }
+>>>>>>> 2314477 (some changes)
   .team__toptext {
     flex-direction: column;
     align-items: center;
@@ -1431,6 +1577,47 @@ li {
   }
 }
 @media (max-width: 660px) {
+<<<<<<< HEAD
+=======
+  .contact {
+    margin-bottom: 50px;
+  }
+  .contact__form {
+    height: 711px;
+  }
+  .contact__toptext {
+    margin-bottom: 30px;
+  }
+  #contact__quote {
+    margin-left: 20px;
+  }
+  .quote__label {
+    padding-left: 3px;
+    font-size: 14px;
+  }
+  .sayhi__label {
+    padding-left: 3px;
+    font-size: 14px;
+  }
+  .testimonials__toptext {
+    margin-bottom: 30px;
+  }
+  .team__toptext {
+    margin-bottom: 30px;
+  }
+  .process__toptext {
+    margin-bottom: 30px;
+  }
+  .process__faq {
+    margin: 0;
+  }
+  .procces__faq-items .process__faq-item:last-child {
+    margin-bottom: 0;
+  }
+  .studies__items {
+    margin-top: 45px;
+  }
+>>>>>>> 2314477 (some changes)
   .faq__item-top .item__top-icon {
     display: none;
   }
@@ -1488,6 +1675,24 @@ li {
     margin-left: 50px;
     font-size: 1.5rem;
   }
+<<<<<<< HEAD
+=======
+  .inner__items-input {
+    width: 90%;
+  }
+  .inner__items-inputmsg {
+    width: 90%;
+  }
+  .inner__items-formbtn {
+    width: 90%;
+  }
+  .footer__email-input {
+    width: 249px;
+  }
+  .footer__top-list {
+    padding: 0;
+  }
+>>>>>>> 2314477 (some changes)
 }
 
 /*# sourceMappingURL=styles.css.map */
