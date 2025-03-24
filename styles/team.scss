@@ -1,0 +1,139 @@
+@use "variables" as vars;
+
+
+.team{
+    &__toptext{
+        display: flex;
+        align-items: center;
+        margin-bottom: 80px;
+        &-desc{
+          max-width: 473px;
+          margin-left: 40px;
+          font-family: 'Space Grotesk';
+          font-weight: vars.$weight-regular;
+          font-size: vars.$size-p;
+        }
+    }
+       
+
+
+        &__btn{
+            margin-left: auto;
+            display: block;
+            width: 269px;
+            height: 68px;
+            padding: 20px 76px;
+            font-family: 'Space Grotesk';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 28px;
+            color: #FFFFFF;
+            background-color: #191A23;
+            border-radius: 14px;
+            text-decoration: none;
+            transition: all 0.3s ease-out;
+            &:hover{
+                background-color: #B9FF66;
+                color: #191A23;
+            }
+        }
+
+}
+
+
+.team__items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.team__item{
+        width: 387px;
+        height: 331px;
+        background: #FFFFFF;
+        border: 1px solid #191A23;
+        box-shadow: 0px 5px 0px #191A23;
+        border-radius: 45px;
+        padding: 40px 35px 63px 35px;
+        margin-bottom: 40px;
+        &-top{
+            display: flex;
+            align-items: center;
+            margin-bottom: 28px;
+        }
+
+        &-line{
+            display: block;
+            width: 317px;
+            height: 0px;
+            border: 1px solid #000000;
+            margin-bottom: 28px;
+        }
+        
+
+        &-desc{
+            font-family: 'Space Grotesk';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+        }
+
+}
+
+
+.team__top-text{
+    margin-left: 20px;
+}
+
+.top__text-name{
+    font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+}
+
+.top__text-pos{
+    font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+}
+
+.item__top-linkedin{
+    position: relative;
+    top: -50px;
+}
+
+
+
+.heading {
+    span {
+      display: inline-block;
+      border-radius: 0.7rem;
+      padding: 0 0.7rem;
+    }
+  
+    &_bg {
+      &_white {
+        span {
+          background-color: vars.$color-white;
+        }
+      }
+  
+      &_green {
+        span {
+          background-color: vars.$color-green;
+        }
+      }
+  
+      &_black {
+        span {
+          background-color: vars.$color-black;
+          color: vars.$color-white;
+        }
+      }
+    }
+  }
+  

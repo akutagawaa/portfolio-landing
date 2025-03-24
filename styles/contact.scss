@@ -1,0 +1,229 @@
+@use "variables" as vars;
+
+.contact{
+  margin-bottom: 140px;
+}
+
+.contact__toptext{
+    display: flex;
+    align-items: center;
+    margin-bottom: 80px;
+    &-desc{
+        max-width: 323px;
+        margin-left: 40px;
+        font-family: 'Space Grotesk';
+        font-weight: vars.$weight-regular;
+        font-size: vars.$size-p;
+    }
+}
+
+
+.contact__form{
+    width: 100%;
+    height: 773px;
+    background: #F3F3F3;
+    border-radius: 45px;
+    padding-top: 60px;
+    padding-left: 100px;
+    position: relative;
+    overflow: hidden;
+    &::after{
+        position: absolute;
+        content: '';
+        right: -26%;
+        top: 62px;
+        width: 691px;
+        height: 648px;
+        background-image: url("../assets/icons/form-icon-right.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+.form__inner-top{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#contact__quote
+{
+  margin-left: 35px;
+}
+
+.sayhi__label{
+  padding-left: 14px;
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: #000000;
+}
+
+.quote__label{
+  padding-left: 14px;
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: #000000;
+}
+
+#contact__quote label{
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: #000000;
+}
+
+input[type="radio"] {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 28px;
+  height: 28px;
+  background: #FFFFFF;
+  border: 1px solid #000000;
+  border-radius: 29px;
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+}
+
+
+input[type="radio"]:checked::before {
+  content: "";
+  width: 16px;
+  height: 16px;
+  background-color: #B9FF66;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.form__inner-items{
+    display: flex;
+    flex-direction: column;
+}
+
+.inner__items-title{
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000000;
+    margin-bottom: 5px;
+}
+
+
+.inner__items-input{
+    padding: 18px 0 18px 30px;
+    width: 556px;
+    height: 59px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 14px;
+    margin-bottom: 25px;
+    &::placeholder{
+        font-family: 'Space Grotesk';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        color: #898989;
+    }
+}
+
+.inner__items-inputmsg{
+    padding-left: 30px;
+    width: 556px;
+    height: 190px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 14px;
+    &::placeholder{
+        position: absolute;
+        top: 18px;
+        font-family: 'Space Grotesk';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        color: #898989;
+    }
+}
+
+
+.inner__items-email{
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000000;
+    margin-bottom: 5px;
+}
+
+.inner__items-msg{
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000000;
+    margin-bottom: 5px;
+}
+
+
+.inner__items-formbtn{
+    padding: 20px 208px;
+    margin-top: 40px;
+    display: block;
+    width: 556px;
+    height: 68px;
+    background: #191A23;
+    border-radius: 14px;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+            &:hover{
+                background-color: #B9FF66;
+                color: #191A23;
+                border: none;
+            }
+}
+
+
+.heading {
+    span {
+      display: inline-block;
+      border-radius: 0.7rem;
+      padding: 0 0.7rem;
+    }
+  
+    &_bg {
+      &_white {
+        span {
+          background-color: vars.$color-white;
+        }
+      }
+  
+      &_green {
+        span {
+          background-color: vars.$color-green;
+        }
+      }
+  
+      &_black {
+        span {
+          background-color: vars.$color-black;
+          color: vars.$color-white;
+        }
+      }
+    }
+  }
+  

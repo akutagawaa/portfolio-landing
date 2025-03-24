@@ -1,0 +1,141 @@
+@use "variables" as vars;
+
+html,body{
+  overflow-x: hidden;
+}
+
+.testimonials__toptext{
+    display: flex;
+    align-items: center;
+    margin-bottom: 80px;
+    &-desc{
+        max-width: 473px;
+        margin-left: 40px;
+        font-family: 'Space Grotesk';
+        font-weight: vars.$weight-regular;
+        font-size: vars.$size-p;
+    }
+}
+
+.swiper{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 1240px;
+  height: 625px;
+  background: #191A23;
+  border-radius: 45px;
+}
+
+.swiper-slide{
+  padding-top: 84px; 
+  position: relative;
+}
+
+.swiper-slide__desc{
+  margin: 0 auto;
+  padding: 52px 52px;
+  width: 606px;
+  height: 266px;
+  border: 2px solid #B9FF66;
+  border-radius: 45px;
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.swiper-slide-text{
+  // margin-top: 97px;
+  position: relative;
+  top: 97px;
+  left: 30%;
+}
+
+.slide__text-name{
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  color: #B9FF66;
+}
+
+.slide__text-pos{
+  font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+color: #FFFFFF;
+}
+
+.swiper-btns{
+  display: flex;
+  position: absolute;
+  top: 78%;
+  left: 50%;
+  bottom: 0;
+  align-items: center;
+}
+
+.swiper-btns .swiper-button-prev{
+  margin-left: 189px;
+}
+
+.swiper-btns .swiper-button-next{
+  margin-right: 189px;
+}
+
+
+.swiper-button-next:after, .swiper-button-prev:after{
+  display: none;
+}
+
+.swiper-pagination{
+  margin-bottom: 50px;
+}
+
+
+.swiper-pagination .swiper-pagination-bullet{
+  width: 14px;
+  height: 14px;
+  background: url('../assets/icons/pagination-non-active.svg');
+}
+
+.swiper-pagination .swiper-pagination-bullet-active{
+  width: 14px;
+  height: 14px;
+  background: url('../assets/icons/pagination-active.svg');
+}
+
+
+
+.heading {
+    span {
+      display: inline-block;
+      border-radius: 0.7rem;
+      padding: 0 0.7rem;
+    }
+  
+    &_bg {
+      &_white {
+        span {
+          background-color: vars.$color-white;
+        }
+      }
+  
+      &_green {
+        span {
+          background-color: vars.$color-green;
+        }
+      }
+  
+      &_black {
+        span {
+          background-color: vars.$color-black;
+          color: vars.$color-white;
+        }
+      }
+    }
+  }
+  

@@ -1,0 +1,384 @@
+@media (max-width: 1250px) {
+    .process__faq-item{
+        width: 100%;
+        max-width: 100rem;
+    }
+
+    .faq__item-line{
+        width: 100%;
+        max-width: 100rem;
+    }
+
+    .contact__form{
+        &::after{
+            display: none;
+        }
+    }
+
+  }
+
+
+  @media (max-width: 1000px){
+
+    .footer__top{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        &-list{
+            gap: 1rem;
+            flex-direction: column;
+        }
+    }
+
+    .footer__top-socials{
+        display: none;
+    }
+
+    .footer__inner{
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer__inner-contactus{
+        margin-bottom: 20px;
+    }
+    
+    .footer__line{
+        width: 100%;
+        max-width: 100rem;
+    }
+
+
+    .faq__item-desc{
+        font-size: 1.5rem;
+    }
+
+
+
+  }
+
+  
+  @media (max-width: 835px)
+  {
+
+    .item__top-icon1{
+        margin-left: 0;
+        display: none;
+    }
+
+    .open-item .item__top-icon2{
+        margin-left: 0;
+        display: none;
+    }
+
+    .team__items{
+        justify-content: center;
+    }
+
+    .team__btn{
+        margin: 0 auto;
+    }
+
+    .footer__line{
+        margin-bottom: 15px;
+    }
+
+    .footer__top{
+        margin-bottom: 30px;
+    }
+
+
+    .contact__form{
+        padding-left: 50px;
+    }
+
+    .form__inner{
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .inner__items-input{
+        width: 80%;
+        max-width: 60rem;
+    }
+
+    .inner__items-inputmsg{
+        width: 80%;
+        max-width: 60rem;
+    }
+
+    .inner__items-formbtn{
+        padding: 0;
+        width: 80%;
+        max-width: 60rem;
+        font-size: 1.9rem;
+    }
+
+
+    .item__top-number{
+        font-size: 3rem;
+    }
+
+    .item__top-title{
+        font-size: 2rem;
+    }
+
+    .faq__item-line{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+   .footer__inner-email{
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+   }
+
+   .footer__email-submit{
+    // margin: 0;
+    margin-right: 20px;
+   }
+   
+   .footer__nocopy{
+    margin-bottom: 20px;
+   }
+
+   .footer__nocopy-rights{
+    font-size: 1.3rem;
+   }
+
+   .footer__nocopy-policy{
+    font-size: 1.3rem;
+   }
+
+
+   .studies__item{
+    &:nth-child(2){
+        display: none;
+    }
+    &:nth-child(3){
+        display: none;
+    }
+   }
+
+   .testimonials__toptext{
+        flex-direction: column;
+        align-items: center;
+   }
+
+   .testimonials__toptext-desc{
+    width: 100%;
+    margin-left: 0;
+    margin-top: 15px;
+    font-size: 1.5rem;
+   }
+
+   .studies__toptext{
+    flex-direction: column;
+        align-items: center;
+   }
+
+   .studies__toptext-desc{
+    width: 100%;
+    margin-left: 0;
+    margin-top: 15px;
+    font-size: 1.5rem;
+   }
+
+   .process__toptext{
+    flex-direction: column;
+        align-items: center;
+   }
+
+   .process__toptext-desc{
+    width: 100%;
+    margin-left: 0;
+    margin-top: 15px;
+    font-size: 1.5rem;
+   }
+
+   .process__faq-item{
+        height: 120px;
+   }
+
+   .team__toptext{
+    flex-direction: column;
+        align-items: center;
+   }
+
+   .team__toptext-desc{
+    width: 100%;
+    margin-left: 0;
+    margin-top: 15px;
+    font-size: 1.5rem;
+   }
+
+   .contact__toptext{
+    flex-direction: column;
+        align-items: center;
+   }
+
+   .contact__toptext-desc{
+    width: 100%;
+    margin-left: 0;
+    margin-top: 15px;
+    font-size: 1.5rem;
+   }
+
+  }
+
+
+
+  @media (max-width: 660px){
+
+    .contact{
+        margin-bottom: 50px;
+        &__form{
+            height: 711px;
+        }
+    }
+
+    .contact__toptext{
+        margin-bottom: 30px;
+    }
+
+    #contact__quote{
+        margin-left: 20px;
+    }
+
+    .quote__label{
+        padding-left: 3px;
+        font-size: 14px;
+    }
+
+    .sayhi__label{
+        padding-left: 3px;
+        font-size: 14px;
+    }
+
+    .testimonials__toptext{
+        margin-bottom: 30px;
+    }
+
+    .team__toptext{
+        margin-bottom: 30px;
+    }
+    
+    .process__toptext{
+        margin-bottom: 30px;
+    }
+
+    .process__faq{
+        margin: 0;
+    }
+
+   .procces__faq-items .process__faq-item:last-child{
+        margin-bottom: 0;
+   }
+
+    .studies__items{
+        margin-top: 45px;
+    }
+
+    .faq__item-top .item__top-icon{
+        display: none;
+    }
+
+    .faq__item-desc{
+        width: 100%;
+    }
+
+    .process__faq-item{
+        height: 100%;
+    }
+
+    .studies__item-desc{
+        min-width: 100%;
+    }
+
+    .team__item{
+        width: 100%;
+        max-width: 100rem;
+        &-line{
+            width: 100%;
+            max-width: 100rem;
+        }
+    }
+
+
+    .top__text-name{
+        font-size: 1.5rem;
+    }
+
+    .top__text-pos{
+        font-size: 1.5rem;
+    }
+    
+
+    .team__item-desc{
+        font-size: 1.5rem;
+    }
+    
+    .item__top-linkedin{
+        display: none;
+    }
+
+
+    .swiper-slide__desc{
+        border: none;
+        width: 100%;
+        font-size: 1.3rem;
+    }
+
+
+    .swiper-slide-text{
+        top: 80px;
+    }
+
+    .slide__text-name{
+        font-size: 1.3rem;
+    }
+
+
+    .slide__text-pos{
+        font-size: 1rem;
+        width: 100%;
+    }
+
+    .process__faq-item{
+        padding: 30px 30px;
+    }
+
+    .form__top-sayhi{
+        font-size: 1.5rem;
+    }
+
+    .form__top-quote{
+        margin-left: 50px;
+        font-size: 1.5rem;
+    }
+
+    .inner__items-input{
+        width: 90%;
+    }
+
+    .inner__items-inputmsg{
+        width: 90%;
+    }
+
+    .inner__items-formbtn{
+        width: 90%;
+    }
+
+    .footer__email-input{
+        width: 249px;
+    }
+
+    .footer__top-list{
+        padding: 0;
+    }
+
+  } 
